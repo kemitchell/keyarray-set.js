@@ -9,8 +9,6 @@ Set nested properties with key arrays.
 ```javascript
 var set = require('keyarray-set');
 
-typeof set; // === 'function'
-
 var anObject = {
   a: {
     b: {}
