@@ -3,6 +3,9 @@
   "description": "set nested properties with key arrays",
   "version": "0.1.0",
   "author": "Kyle E. Mitchell <kyle@kemitchell.com> (https://kemitchell.com)",
+  "files": [
+    "files.js"
+  ],
   "dependencies": {
     "keyarray-get": "0.1.x"
   },
@@ -21,7 +24,7 @@
     "recursive"
   ],
   "license": "Apache-2.0",
-  "repository":"kemitchell/keyarray-set.js",
+  "repository": "kemitchell/keyarray-set.js",
   "scripts": {
     "test": "defence -i javascript README.md | replace-require-self | node",
     "lint": "standard"
