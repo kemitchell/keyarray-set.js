@@ -23,7 +23,7 @@
     "predicate",
     "recursive"
   ],
-  "license": "Apache-2.0",
+  "license": "MIT",
   "repository": "kemitchell/keyarray-set.js",
   "scripts": {
     "test": "defence -i javascript README.md | replace-require-self | node",
